@@ -113,6 +113,7 @@ fun PersonalizacionIcono(modifier: Modifier = Modifier) {
 
             Text(text = finishValue)
         }
+        HorizontalDivider()
         BadgedBox(modifier = Modifier
             .padding(20.dp, 0.dp),
             badge = {
@@ -122,7 +123,7 @@ fun PersonalizacionIcono(modifier: Modifier = Modifier) {
                 )
             }
         ) {
-           
+
         }
     }
 
